@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>portofolio</title>
+</head>
+<body>
+    <nav class="flex justify-between p-10 sticky top-0 h-[100px] bg-blue-300">
+        <div class="text-lg font-bold"> PORTOFOLIO AQU</div>
+            <ul class="flex gap-6 font-bold">
+                <li><a href="#HOME" class="hover:text-white"> HOME</a></li>
+                <li><a href="#tentang saya" class="hover:text-white"> tentang saya</a></li>
+                <li><a href="#projek" class="hover:text-white"> projek</a></li>
+                <li><a href="#kontak" class="hover:text-white"> kontak</a></li>
+            </ul>
+    </nav>
+
+ <section> 
+    <div id="HOME" class="flex flex-col items-center justify-center h-screen text-center bg-blue-200">
+        <img src="foto1.jpeg" class="w-48 h-64 rounded-full mb-4 border-4 border-white">
+        <h1 class="text-3xl font-bold">HALLO SAYA ENI</h1>
+        <h2 class="text-1xl font-semibold text-blue-800">SEORANG MAHASISWA</h2>
+        <p class="max-w-md mt-2">
+            Selamat datang di portofolio saya, saya seorang mahasiswa prodi sistem informasi angkatan 25 universitas trunojoyo madura.
+        </p>
+    </div>
+</section>
+
+<section class="h-screen bg-blue-300 flex flex-col items-center justify-center border border-black ">
+    <div id="tentang saya">
+        <h2 class="text-5xl font-black text-white italic text-center">TENTANG SAYA</h2>
+        <p class="mt-4 text-black-300">Saya adalah mahasiswa yang sedang belajar cara membuat website pakai Tailwind css.</p>
+    </div>
+</section>
+
+<section class="min-h-screen bg-blue-200 flex flex-col items-center justify-center border border-black py-10">
+    <div id="projek">
+    <h2 class="text-5xl font-black text-white text-center">PROJEK</h2>
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-6 mt-8 text-center">
+            <div class="w-50 h-80 bg-white border border-black rounded-xl p-4 text-black flex flex-col justify-between">
+            <h3 class="text-lg font-bold">Website Portofolio</h3>
+                <img src="portofolio1.png">
+                <p class="text-sm">
+                Membuat website portofolio pribadi untuk menampilkan profil, hasil projek, kontak.
+                </p>
+            </div>
+
+            <div class="w-50 h-80 bg-white border border-black rounded-xl p-4 text-black flex flex-col justify-between">
+            <h3 class="text-lg font-bold">Landing Page Perusahaan</h3>
+                <img src="landingpage1.png">
+                <p class="text-sm">
+                    Membuat landing page perusahaan yang berisi informasi produk,dan kontak.
+                </p>
+            </div>
+
+            <div class="w-50 h-80 bg-white border border-black rounded-xl p-4 text-black flex flex-col justify-between">
+            <h3 class="text-lg font-bold">Landing Page Produk</h3>
+                <img src="landingpage2.png">
+                <p class="text-sm">
+                    Membuat landing page produk minuman chocodrink.
+                </p>
+            </div>
+
+            <div class="w-50 h-80 bg-white border border-black rounded-xl p-4 text-black flex flex-col justify-between">
+            <h3 class="text-lg font-bold">CV</h3>
+                <img src="cv.png">
+                <p class="text-sm">
+                    Membuat cv yang beisi data diri, skill, penglaman kerja, dan organisasi yang penah dikuti.
+                </p>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+<section>
+    <div id="kontak" class="flex flex-col p-20 bg-blue-100">
+        <h2 class="text-5xl font-black text-white italic mb-6">KONTAK</h2>
+        <p class="text-black-300 text-sm">email : fardainieni@gmail.com atau No.telepon : 085739741352
+        </p>
+    </div>
+</section>
+
+    <footer class="flex justify-center items-center p-[20px] bg-gray-300">
+        <p class="text-sm">&copy; Portofolio AQU. All Rights Reserved</p>
+    </footer>
+</body>
+</html>
